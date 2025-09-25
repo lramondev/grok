@@ -13,8 +13,6 @@ import 'package:grok/presentation/blocs/auth/auth_state.dart';
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
-
-
   @override
   Widget build(BuildContext context) {
     
@@ -169,6 +167,7 @@ class HomeScreen extends StatelessWidget {
                           ),
                         ),
 
+                        /*
                         InkWell(
                           onTap: () => Navigator.pushNamed(context, '/ponto'),
                           customBorder: RoundedRectangleBorder(
@@ -192,7 +191,8 @@ class HomeScreen extends StatelessWidget {
                             ),
                           ),
                         ),
-
+                        */
+                        /*
                         InkWell(
                           onTap: () => {},//Navigator.pushNamed(context, '/imposto_renda'),
                           customBorder: RoundedRectangleBorder(
@@ -219,7 +219,8 @@ class HomeScreen extends StatelessWidget {
                             ),
                           ),
                         ),
-
+                        */
+                        /*
                         InkWell(
                           onTap: () => {},//Navigator.pushNamed(context, '/ferias'),
                           customBorder: RoundedRectangleBorder(
@@ -246,7 +247,7 @@ class HomeScreen extends StatelessWidget {
                             ),
                           ),
                         ),
-
+                        */
                       ]
                     ),
                   ),
